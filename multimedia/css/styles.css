@@ -1,0 +1,209 @@
+/* Reseteo es estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.experiencia-imagen {
+  width: 640px;
+  height: 520px;
+}
+section {
+  margin-top: 1%;
+  display: flexbox;
+  border: 5px dashed #ebb3a9;
+  padding: 23px;
+  background-color: #eeebd0;
+  justify-items: center;
+  align-items: baseline;
+  justify-content: end;
+}
+
+body {
+  background-image: url(../images/escalagris.png);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body:hover {
+  background-image: url(https://i.pinimg.com/736x/1d/36/7d/1d367d480ed01a9489e46cfd33312ace.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  color: #e86252;
+  font-size: 40px;
+  display: flexbox;
+  font-size: larger;
+}
+.personal-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.info-descripcion-personal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  margin-right: 40px;
+  width: 90px;
+  height: 90px;
+  border-radius: 20%;
+  box-shadow: 4px 2px 10px #e86252;
+  transition: transform 0.6s;
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: #e86252;
+  background-color: #e86252;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  text-shadow: #02060f;
+  color: #e86252;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.description {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.experience {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.gato-border {
+  display: flex;
+  flex-direction: row;
+  width: 90px;
+  height: 90px;
+}
+.experience-item {
+  background-color: #2f0086;
+  padding: 10px;
+  border-left: 4px solid #02060f;
+}
+
+.experience-item:hover {
+  background-color: violet;
+}
+
+.contact {
+  width: 70%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1d1511c9;
+  color: white;
+}
+
+button {
+  background-color: #e86252;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+td,
+th {
+  color: yellow;
+  border: 12px solid black;
+}
+
+.tabla {
+  font-size: small;
+}
+
+td:hover {
+  color: darkgreen;
+  background-color: #02060f;
+}
+
+
+footer {
+  background-color: #000; 
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  position:relative;
+  width: 100%;
+  margin: 0px;
+}
+
+.footer-container {
+  display: flex-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-iconos a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.footer-iconos a:hover {
+  color: #0ca819; 
+}
+
+.footer-text {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Efectos especiales */
+input:hover,
+textarea:hover, section:hover  {
+  border: none;
+  border-radius: 15px;
+  background-color: #0f0c0ae0;
+  color: white;
+} 
